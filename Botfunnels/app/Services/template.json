@@ -1,0 +1,70 @@
+{
+  "blocks": {
+    "Welcome Message": {
+      "slug": "Welcome Message Template",
+      "name": "Welcome Message",
+      "type": "welcome",
+      "group": "builtin",
+      "cards": {
+        "Card One": {
+          "type": "text",
+          "text": "My dear friend, you're awesome!",
+          "buttons": {
+            "Button One": {
+              "title": "Button One",
+              "type": "postback",
+              "payload": "Block Two Template"
+            },
+            "Button Two": {
+              "title": "Button Two",
+              "type": "link",
+              "link": "https://twitter.com"
+            }
+          }
+        },
+        "Card Two": {
+          "type": "image",
+          "title": "First",
+          "description": "Image description",
+          "url": "http://bot-funnels.ideasoft.io/public/images/logo.png"
+        },
+        "Card Three": {
+          "type": "text",
+          "text": "My dear friend, you're awesome!",
+          "buttons": {
+            }
+        }
+      }
+    },
+    "Block Two": {
+      "slug": "Block Two Template",
+      "name": "Button One",
+      "type": "none",
+      "group": "My first group",
+      "cards": {
+        "Card One": {
+          "type": "text",
+          "text": "Message from card one block 2 button two",
+          "buttons": {
+            "Button One": {
+              "title": "Button One",
+              "type": "link",
+              "link": "https://vk.com"
+            }
+          }
+        },
+        "Card Two": {
+          "type": "text",
+          "text": "Message from card two block 2",
+          "buttons": {
+            "Button One": {
+              "title": "Button One",
+              "type": "link",
+              "link": "https://vk.com"
+            }
+          }
+        }
+      }
+    }
+  }
+}
